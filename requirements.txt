@@ -1,0 +1,21 @@
+#general modules 
+django>=4.2
+python-decouple==3.8
+pillow==11.3.0
+djangorestframework
+
+#third party modules 
+markdown      
+django-filter 
+drf-yasg[validation]
+djangorestframework-simplejwt==5.5.1
+pyjwt==2.10.1
+#deployment modules 
+
+
+#email third party modules 
+django-mail-templated
+
+#
+pytest
+pytest-django
