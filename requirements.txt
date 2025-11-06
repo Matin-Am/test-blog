@@ -9,6 +9,7 @@ markdown
 django-filter 
 drf-yasg[validation]
 djangorestframework-simplejwt==5.5.1
+djoser
 pyjwt==2.10.1
 #deployment modules 
 
