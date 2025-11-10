@@ -160,3 +160,8 @@ EMAIL_USE_TLS = False  # True for TLS, False for SSL
 EMAIL_HOST_USER = ''  
 EMAIL_HOST_PASSWORD = ''  
 EMAIL_USE_SSL = False  
+
+
+
+# Celery Configurations 
+CELERY_BROKER_URL = "redis://redis:6379/"
