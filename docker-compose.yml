@@ -34,7 +34,12 @@ services:
 
       - ServerOptions__HostName=smtp4dev
 
- 
+  redis:
+    container_name: redis-blog
+    image: redis
+    ports:
+      - "6371:6379"
+    command: redis-server --save 60 1 --loglevel warning
 
 volumes:
   smtp4dev-data:
