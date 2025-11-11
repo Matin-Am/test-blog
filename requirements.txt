@@ -24,3 +24,4 @@ pytest-django
 # Background proccess and cache 
 celery
 redis
+django_celery_beat
